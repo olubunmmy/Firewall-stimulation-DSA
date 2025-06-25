@@ -22,12 +22,12 @@ This project involved configuring a firewall in a controlled lab environment to 
 
 #### Implementation Steps  
 
-1.### Firewall Setup  
+1. Firewall Setup  
 - Installed and launched firewall appliance  
 - Configured interfaces for internal and external segments  
 - Assigned static IPs to internal machines
 
-2.### Network and Device Configuration  
+2. Network and Device Configuration  
 - Configured attacker machine on same internal network  
 - Target system positioned on LAN segment  
 - Verified routing and IP communication
