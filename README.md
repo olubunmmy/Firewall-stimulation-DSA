@@ -1,6 +1,5 @@
 # Virtual Firewall-stimulation-
-This report describes the deployment and configuration of a virtual firewall system to simulate enterprise network security. 
-Virtual Firewall Simulation
+
 
 ## Project Summary  
 This report describes the deployment and configuration of a virtual firewall system to simulate enterprise network security. The firewall was configured to manage internal traffic, apply custom rules, and monitor for suspicious activity. An attacker machine was used to test rule enforcement and intrusion detection capabilities. This project illustrates network segmentation, policy enforcement, and log-based traffic analysis.
