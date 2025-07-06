@@ -120,7 +120,7 @@ The firewall was configured with enterprise-relevant rule sets, and traffic was 
 
 - Enterprise-level rule design and policy enforcement
 
-  
+  ---
 
 ### Conclusion
 This simulation successfully mirrored key aspects of enterprise network security by deploying a functional virtual firewall and evaluating its effectiveness under simulated attack conditions. By configuring rule sets, enforcing security policies, and analyzing logs, the project reinforced foundational cybersecurity practices used in real corporate environments.
