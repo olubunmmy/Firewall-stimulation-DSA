@@ -47,22 +47,13 @@ HTTP         LAN          Any       External       Allow
 - Verified detection of blocked and allowed actions  
 - Assessed effectiveness of rule configuration
 
-Network Diagram  
-Insert diagram showing attacker, firewall, and LAN components
+
 
 Screenshots  
 Insert screenshot of rule setup page  
 Insert screenshot of blocked SSH attempt  
 Insert screenshot of real-time log monitor
 
-Project Folder Structure  
-firewall-simulation  
-├── Configs  
-├── Logs  
-├── Screenshots  
-├── firewall-rules.md  
-├── README.md  
-├── simulation-log.md
 
 Outcomes  
 - Built and tested a functioning firewall in virtual lab  
@@ -70,5 +61,4 @@ Outcomes
 - Simulated real-world attacks and interpreted logs  
 - Applied concepts of network security segmentation
 
-References  
-Include configuration references and firewall documentation used
+
