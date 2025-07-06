@@ -1,4 +1,74 @@
-# Virtual Firewall-stimulation-
+# Project Title: Enterprise-Grade Network Security Simulation with a Virtual Firewall
+
+---
+
+## Project Overview
+
+This project involved the deployment and configuration of a virtual firewall to simulate an enterprise-grade network security environment. The setup aimed to mirror real-world infrastructure by implementing network segmentation, access control policies, and intrusion detection within a controlled virtual lab. A virtual attacker machine was introduced to simulate threat scenarios such as port scanning and unauthorized access attempts.
+
+The firewall was configured with enterprise-relevant rule sets, and traffic was monitored and analyzed using built-in logging tools and external analyzers like Wireshark. This exercise reinforced core network security concepts including perimeter defense, rule enforcement, log analysis, and response validation.
+
+---
+
+## Objectives
+
+- Deploy a virtual firewall in a simulated enterprise network  
+- Configure LAN/WAN interfaces, IP addressing, and NAT  
+- Create and enforce realistic access control rules  
+- Simulate internal and external threat scenarios  
+- Analyze firewall logs to assess policy effectiveness  
+
+---
+
+## Tools and Environment
+
+| Component               | Description                                      |
+|-------------------------|--------------------------------------------------|
+| Host OS                 | Windows 10                                       |
+| Virtualization Platform | Oracle VirtualBox                                |
+| Firewall Appliance      | pfSense / OPNsense (open-source enterprise firewalls) |
+| Guest OS (VMs)          | Ubuntu (Attacker VM), Ubuntu (Target VM)         |
+| Network Tools           | Nmap (port scanner), Wireshark (traffic capture) |
+
+---
+
+## Methodology
+
+### 1. Enterprise Lab Setup
+
+- Deployed Oracle VirtualBox to host isolated virtual machines
+- Set up three key virtual systems:
+  - **Firewall Appliance VM** (pfSense or OPNsense)
+  - **Internal Target VM** (Ubuntu server)
+  - **Attacker VM** (Ubuntu or Kali with Nmap installed)
+- Configured separate virtual network interfaces:
+  - **LAN**: internal secure network  
+  - **WAN**: public/untrusted network  
+- Assigned static IPs to simulate enterprise segmentation
+
+---
+
+### 2. Firewall Configuration
+
+- Accessed firewall via browser UI and configured:
+  - **Interfaces**: LAN, WAN, and optional DMZ  
+  - **NAT**: Enabled for internal devices to access external network  
+- Created rule sets to reflect enterprise policy requirements:
+
+| Rule Type | Interface | Source       | Destination  | Action |
+|-----------|-----------|--------------|--------------|--------|
+| DNS       | LAN       | Any          | External     | Allow  |
+| HTTP      | LAN       | Any          | External     | Allow  |
+| SSH       | WAN       | Any          | Internal     | Block  |
+| ICMP      | WAN       | Any          | Firewall     | Block  |
+
+---
+
+### 3. Threat Simulation (Enterprise Use Case)
+
+- **Simulated port scanning** from attacker VM using Nmap:
+  ```bash
+  nmap -sS 192.168.10.10
 
 
 ## Project Overview 
