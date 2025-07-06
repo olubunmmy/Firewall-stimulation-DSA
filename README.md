@@ -6,7 +6,6 @@ This project involved the deployment and configuration of a virtual firewall to 
 
 The firewall was configured with enterprise-relevant rule sets, and traffic was monitored and analyzed using built-in logging tools and external analyzers like Wireshark. This exercise reinforced core network security concepts including perimeter defense, rule enforcement, log analysis, and response validation.
 
----
 
 ## Objectives
 
@@ -94,7 +93,7 @@ The firewall was configured with enterprise-relevant rule sets, and traffic was 
 
 - Detected and logged port scanning attempts
 
-
+---
 
 ### Results and Outcomes
 - Successfully deployed a firewall in a virtual lab
