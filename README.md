@@ -1,6 +1,5 @@
 # Project Title: Network Security Simulation with a Virtual Firewall
 
-
 ## Project Overview
 
 This project involved the deployment and configuration of a virtual firewall to simulate an enterprise-grade network security environment. The setup aimed to mirror real-world infrastructure by implementing network segmentation, access control policies, and intrusion detection within a controlled virtual lab. A virtual attacker machine was introduced to simulate threat scenarios such as port scanning and unauthorized access attempts.
