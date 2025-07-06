@@ -33,7 +33,7 @@ The firewall was configured with enterprise-relevant rule sets, and traffic was 
 | Guest OS (VMs)          | Kali  (Attacker VM), Ubuntu (Target VM)         |
 | Network Tools           | Nmap (port scanner), Wireshark (traffic capture) |
 
----
+
 
 ## Methodology
 
