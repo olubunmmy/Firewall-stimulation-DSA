@@ -21,6 +21,12 @@ The firewall was configured with enterprise-relevant rule sets, and traffic was 
 ---
 
 ## Tools and Environment
+  
+- Virtual firewall appliance  
+- Virtual machines for attacker and target  
+- Port scanner  
+- Network traffic analyzer
+
 
 | Component               | Description                                      |
 |-------------------------|--------------------------------------------------|
@@ -71,22 +77,7 @@ The firewall was configured with enterprise-relevant rule sets, and traffic was 
   nmap -sS 192.168.10.10
 
 
-## Project Overview 
-This Project report describes the deployment and configuration of a virtual firewall system to simulate enterprise network security. The firewall was configured to manage internal traffic, apply custom rules, and monitor for suspicious activity. An attacker machine was used to test rule enforcement and intrusion detection capabilities. This project illustrates network segmentation, policy enforcement, and log-based traffic analysis.
 
-
-
-### Objectives  
-- Deploy a firewall in a virtual network  
-- Configure interfaces and access rules  
-- Simulate unauthorized access attempts  
-- Analyze and document system logs
-
-### Tools and Environment  
-- Virtual firewall appliance  
-- Virtual machines for attacker and target  
-- Port scanner  
-- Network traffic analyzer
 
 #### Implementation Steps  
 
