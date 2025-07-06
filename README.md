@@ -1,6 +1,5 @@
 # Project Title: Network Security Simulation with a Virtual Firewall
 
----
 
 ## Project Overview
 
