@@ -49,7 +49,7 @@ The firewall was configured with enterprise-relevant rule sets, and traffic was 
   - **WAN**: public/untrusted network  
 - Assigned static IPs to simulate enterprise segmentation
 
----
+
 
 ### 2. Firewall Configuration
 
