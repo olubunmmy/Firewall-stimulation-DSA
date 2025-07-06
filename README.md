@@ -15,7 +15,7 @@ The firewall was configured with enterprise-relevant rule sets, and traffic was 
 - Simulate internal and external threat scenarios  
 - Analyze firewall logs to assess policy effectiveness  
 
----
+
 
 ## Tools and Environment
   
