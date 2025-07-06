@@ -1,4 +1,4 @@
-# Project Title: Enterprise-Grade Network Security Simulation with a Virtual Firewall
+# Project Title: Network Security Simulation with a Virtual Firewall
 
 ---
 
@@ -33,7 +33,7 @@ The firewall was configured with enterprise-relevant rule sets, and traffic was 
 | Host OS                 | Windows 10                                       |
 | Virtualization Platform | Oracle VirtualBox                                |
 | Firewall Appliance      | pfSense / OPNsense (open-source enterprise firewalls) |
-| Guest OS (VMs)          | Ubuntu (Attacker VM), Ubuntu (Target VM)         |
+| Guest OS (VMs)          | Kali  (Attacker VM), Ubuntu (Target VM)         |
 | Network Tools           | Nmap (port scanner), Wireshark (traffic capture) |
 
 ---
@@ -98,7 +98,7 @@ The firewall was configured with enterprise-relevant rule sets, and traffic was 
 
 
 
-## Results and Outcomes
+### Results and Outcomes
 - Successfully deployed a firewall in a virtual lab
 
 - Demonstrated effective network segmentation and traffic control
@@ -109,7 +109,7 @@ The firewall was configured with enterprise-relevant rule sets, and traffic was 
 
 - Strengthened understanding of firewall deployment, intrusion detection, and incident response
 
-## Key Skills Demonstrated
+### Key Skills Demonstrated
 - Deployment of open-source enterprise-grade firewall appliances
 
 - NAT configuration, interface setup, and access control
@@ -122,7 +122,7 @@ The firewall was configured with enterprise-relevant rule sets, and traffic was 
 
 - Enterprise-level rule design and policy enforcement
 
-## Conclusion
+### Conclusion
 This simulation successfully mirrored key aspects of enterprise network security by deploying a functional virtual firewall and evaluating its effectiveness under simulated attack conditions. By configuring rule sets, enforcing security policies, and analyzing logs, the project reinforced foundational cybersecurity practices used in real corporate environments.
 
 This experience further developed my ability to implement and evaluate perimeter defenses, a crucial skill set for roles in network security, system administration, and SOC operations. The project integrates lessons from previous lab exercises and continues to build a hands-on cybersecurity portfolio aligned with industry standards.
