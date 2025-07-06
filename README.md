@@ -69,16 +69,15 @@ The firewall was configured with enterprise-relevant rule sets, and traffic was 
 
 ### 3. Threat Simulation 
 
-- **Simulated port scanning** from attacker VM using Nmap:
-  ```bash
-  nmap -sS 192.168.10.10
-
-
+- Stimulated port scanning from attacker VM using Nmap:
+  
 - Attempted unauthorized SSH access to internal system
 
 - Used Wireshark on attacker and target machines to capture live traffic
 
 - Verified which actions were logged, blocked, or passed
+
+---
 
 ### Log Monitoring and Policy Review
 - Accessed the firewall's system logs and live traffic monitor
@@ -106,6 +105,8 @@ The firewall was configured with enterprise-relevant rule sets, and traffic was 
 
 - Strengthened understanding of firewall deployment, intrusion detection, and incident response
 
+---
+
 ### Key Skills Demonstrated
 - Deployment of open-source enterprise-grade firewall appliances
 
@@ -118,6 +119,8 @@ The firewall was configured with enterprise-relevant rule sets, and traffic was 
 - Use of Wireshark for network packet inspection
 
 - Enterprise-level rule design and policy enforcement
+
+  
 
 ### Conclusion
 This simulation successfully mirrored key aspects of enterprise network security by deploying a functional virtual firewall and evaluating its effectiveness under simulated attack conditions. By configuring rule sets, enforcing security policies, and analyzing logs, the project reinforced foundational cybersecurity practices used in real corporate environments.
